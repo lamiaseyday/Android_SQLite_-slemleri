@@ -1,7 +1,7 @@
 package com.example.eyda.denemedb;
 
 
-class KullaniciBilgi {
+public class KullaniciBilgi {
 
 
     public String fullName;
