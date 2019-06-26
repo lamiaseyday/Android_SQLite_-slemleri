@@ -11,17 +11,20 @@
         android:theme="@style/AppTheme">
         <activity android:name=".RecordPageActivity" />
         <activity android:name=".WelcomeActivity">
+
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Page1" />
+        <activity android:name=".ListUsers" />
+        <activity android:name=".KullaniciGuncelleActivity" />
+        <activity android:name=".KulSilActivity" />
+        <activity android:name=".GirisEkrani">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".Page1" />
-        <activity android:name=".ListUsers" />
-        <activity android:name=".KullaniciGuncelleActivity" />
-        <activity android:name=".KulSilActivity"></activity>
     </application>
 
 </manifest>
