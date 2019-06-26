@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemRecord"
+        android:icon="@drawable/record_person"
+        app:showAsAction="always"
+        android:title="itemRecord" />
+
+    <item
+        android:id="@+id/itemLogin"
+        android:icon="@drawable/login_person"
+        app:showAsAction="always"
+        android:title="itemLogin" />
+
+    <item
+        android:id="@+id/itemHelp"
+        app:showAsAction="never"
+        android:title="Help" />
+
+    <item
+        android:id="@+id/itemExit"
+        app:showAsAction="never"
+        android:title="Exit" />
+</menu>

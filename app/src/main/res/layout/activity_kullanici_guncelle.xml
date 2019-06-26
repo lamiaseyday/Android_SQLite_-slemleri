@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#818689"
+    tools:context=".KullaniciGuncelleActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="186dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="41dp"
+        android:gravity="center"
+        android:text="Update"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edtId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/edtId"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="225dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="26dp"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="Id"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="#FFF"
+        app:layout_constraintBottom_toTopOf="@+id/edtNewAd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtNewAd"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="219dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="28dp"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="Yeni Ad Soyad"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/edtNewKulAd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtId"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtNewKulAd"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="224dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="52dp"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="Yeni Kullanıcı Adı"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/btn_guncelle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNewAd"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_guncelle"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="Guncelle"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Güncelle"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNewKulAd"
+        tools:ignore="MissingConstraints,OnClick" />
+
+
+</android.support.constraint.ConstraintLayout>
